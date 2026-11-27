@@ -126,20 +126,23 @@ A continuación, se presentan las principales visualizaciones utilizadas para ex
 
 ## 8. Estructura del repositorio
 
-
 La organización de los archivos del proyecto es la siguiente:
 
 ```text
-analisis-de-telecomunicaciones/
+telecom-analysis/
 │
-├── data/
-│   ├── planes.csv
+├── Imágenes/
+│   └── (Visualizaciones del análisis)
+│
+├── datos/
+│   ├── plans.csv
 │   ├── usage.csv
 │   └── users_latam.csv
 │
-├── README.md
+├── cuadernos/
+│   └── (Notebook del proyecto)
 │
-└── analisis_connectatel.ipynb
+└── README.md
 ```
 
 ## 9. Cómo ejecutar el proyecto
