@@ -94,7 +94,38 @@ El análisis permitió identificar los siguientes patrones:
 - Se identificaron oportunidades para desarrollar estrategias diferenciadas de fidelización, activación y migración hacia planes con mayores beneficios.
 - Se recomienda profundizar en la comparación del consumo por tipo de plan para identificar oportunidades comerciales con mayor precisión.
 
-## 7. Estructura del repositorio
+
+## 7. Visualización de resultados
+
+A continuación, se presentan las principales visualizaciones utilizadas para explorar el comportamiento de los clientes, comparar los patrones de consumo e identificar diferencias entre los tipos de planes.
+
+### 7.1. Distribución de usuarios por grupo de edad
+
+![Distribución de usuarios por grupo de edad](Im%C3%A1genes/Distribuci%C3%B3n%20de%20usuarios%20por%20grupo%20de%20edad.png)
+
+### 7.2. Distribución de usuarios por grupo de uso
+
+![Distribución de usuarios por grupo de uso](Im%C3%A1genes/Distribuci%C3%B3n%20de%20usuarios%20por%20grupo%20de%20uso.png)
+
+### 7.3. Distribución de edad por tipo de plan
+
+![Distribución de edad por tipo de plan](Im%C3%A1genes/Distribuci%C3%B3n%20de%20edad%20por%20tipo%20de%20plan.png)
+
+### 7.4. Distribución de llamadas por tipo de plan
+
+![Distribución de llamadas por tipo de plan](Im%C3%A1genes/Distribuci%C3%B3n%20de%20llamadas%20por%20tipo%20de%20plan.png)
+
+### 7.5. Distribución de mensajes por tipo de plan
+
+![Distribución de mensajes por tipo de plan](Im%C3%A1genes/Distribuci%C3%B3n%20de%20mensajes%20por%20tipo%20de%20plan%20.png)
+
+### 7.6. Distribución de minutos por tipo de plan
+
+![Distribución de minutos por tipo de plan](Im%C3%A1genes/Distribuci%C3%B3n%20de%20la%20cantidad%20de%20minutos%20por%20tipo%20de%20plan.png)
+
+
+## 8. Estructura del repositorio
+
 
 La organización de los archivos del proyecto es la siguiente:
 
@@ -111,7 +142,7 @@ analisis-de-telecomunicaciones/
 └── analisis_connectatel.ipynb
 ```
 
-## 8. Cómo ejecutar el proyecto
+## 9. Cómo ejecutar el proyecto
 
 El notebook puede ejecutarse utilizando Google Colab o Jupyter Notebook.
 
@@ -135,7 +166,7 @@ jupyter notebook
 4. Abrir `analisis_connectatel.ipynb`.
 5. Ejecutar las celdas en orden.
 
-## 9. Guía de reproducción
+## 10. Guía de reproducción
 
 Para reproducir los resultados del análisis:
 
@@ -154,7 +185,7 @@ usage = pd.read_csv('data/usage.csv')
 6. Revisar las tablas, visualizaciones, segmentaciones y conclusiones generadas.
 
 
-## 10. Conclusión
+## 11. Conclusión
 
 Este proyecto permitió aplicar un proceso integral de análisis de datos, desde la exploración y limpieza de información hasta la identificación de patrones de consumo y la segmentación de clientes.
 
